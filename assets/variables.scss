@@ -2,5 +2,41 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
-$bg : cyan;
 
+$bg : rgb(10, 201, 175);
+$pfont: rgb(56, 56, 56);
+$pmargin : 10px;
+
+
+@font-face {
+    font-family: 'ds';
+    src: url('https://ui.3ds.com/fonts/3ds/3ds-Regular-v2.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ds-light';
+    src: url('https://ui.3ds.com/fonts/3ds/3ds-Light-v2.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ds-bold';
+    src: url('https://ui.3ds.com/fonts/3ds/3ds-SemiBold-v2.woff2') format('woff2');
+}
+
+.topic {
+    font-family: 'ds-bold', sans-serif;
+    letter-spacing: 0.08rem;
+    font-size: 32px;
+    // border-left: 5px solid #f33232;
+    // background-image: linear-gradient(to right, #00ccff, #ff66ff);
+
+}
+
+p {
+    font-family: 'ds-light', sans-serif;
+    color: $pfont;
+    line-height: 1.2;
+    margin: 10px 0 !important;
+
+
+}

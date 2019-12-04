@@ -1,8 +1,10 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <v-card>
-        <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
+      <v-card class="card">
+        <v-card-title>
+          <h1 class="topic">Welcome to AAKRUTI2020</h1>
+        </v-card-title>
         <v-card-text>
           <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
           <p>For more information on Vuetify, check out the</p>
@@ -39,3 +41,6 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+</style>
