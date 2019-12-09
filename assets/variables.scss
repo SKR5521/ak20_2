@@ -5,6 +5,8 @@
 
 $bg : rgb(10, 201, 175);
 $pfont: rgb(56, 56, 56);
+$linkColor :green;
+$linkHover:cyan;
 $pmargin : 10px;
 
 
@@ -33,10 +35,16 @@ $pmargin : 10px;
 }
 
 p {
-    font-family: 'ds-light', sans-serif;
+    font-family: 'ds', sans-serif;
     color: $pfont;
     line-height: 1.2;
+    font-size: calc(14px + 2*(100vw - 360px)/880)!important;
     margin: 10px 0 !important;
+
 }
 
-
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

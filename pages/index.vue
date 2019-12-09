@@ -1,6 +1,7 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
+      <stats/>
       <v-card class="card">
         <v-card-title>
           <h1 class="topic">Welcome to AAKRUTI2020</h1>
@@ -31,12 +32,13 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import stats from '~/components/jsf/stats.vue'
 
 export default {
   components: {
-    Logo,
+    stats,
     VuetifyLogo
   }
 }
