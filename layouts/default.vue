@@ -5,11 +5,17 @@
         <nuxt />
       </v-container>
     </v-content>
+    <foot/>
   </v-app>
 </template>
 
 <script>
+import foot from '@/components/foot'
+
 export default {
+  components: {
+    foot,
+  },
   data() {
     return {
       clipped: false,
