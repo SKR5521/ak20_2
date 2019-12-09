@@ -24,7 +24,6 @@
 .jsf-icon {
   font-size: calc(50px + 30 * ((100vw - 360px) / 880)) !important;
   color: #012d52;
-  
 }
 
 .jsf-content {

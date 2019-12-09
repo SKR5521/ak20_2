@@ -1,5 +1,5 @@
 <template>
-  <v-footer fixed padless class="flex-center pa-2">
+  <v-footer  padless class="flex-center pa-2">
     <div class="container">
       <v-layout row wrap class="pb-4">
         <v-flex xs12 md6 class="flex-center py-3">
