@@ -2,7 +2,8 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <stats/>
-      <v-card class="card">
+      <winimg/>
+      <v-card class="card mt-5">
         <v-card-title>
           <h1 class="topic">Welcome to AAKRUTI2020</h1>
         </v-card-title>
@@ -35,10 +36,12 @@
 
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import stats from '~/components/jsf/stats.vue'
+import winimg from '~/components/jsf/winimg.vue'
 
 export default {
   components: {
     stats,
+    winimg,
     VuetifyLogo
   }
 }

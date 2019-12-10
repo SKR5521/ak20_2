@@ -3,7 +3,7 @@
     <v-container v-for="(st, index) in stats" :key="index">
       <v-layout row wrap v-if="(st.year == 18)">
         <v-flex xs6 md3 class="pa-2">
-          <v-card class="card-round elevation-5 mx-3">
+          <v-card class="card-round elevation-5 mx-2">
             <v-layout col>
               <v-flex xs4 class="flex-center">
                 <v-icon class="jsf-icon">fas fa-university</v-icon>
@@ -16,8 +16,8 @@
           </v-card>
         </v-flex>
         <v-flex xs6 md3 class="pa-2">
-          <v-card class="card-round elevation-5 mx-3">
-            <v-layout  col>
+          <v-card class="card-round elevation-5 mx-2">
+            <v-layout col>
               <v-flex xs4 class="flex-center">
                 <v-icon class="jsf-icon">fas fa-map-marker-alt</v-icon>
               </v-flex>
@@ -29,8 +29,8 @@
           </v-card>
         </v-flex>
         <v-flex xs6 md3 class="pa-2">
-          <v-card class="card-round elevation-5 mx-3">
-            <v-layout  col>
+          <v-card class="card-round elevation-5 mx-2">
+            <v-layout col>
               <v-flex xs4 class="flex-center">
                 <v-icon class="jsf-icon">fas fa-user-graduate</v-icon>
               </v-flex>
@@ -42,8 +42,8 @@
           </v-card>
         </v-flex>
         <v-flex xs6 md3 class="pa-2">
-          <v-card class="card-round elevation-5 mx-3">
-            <v-layout  col>
+          <v-card class="card-round elevation-5 mx-2">
+            <v-layout col>
               <v-flex xs4 class="flex-center">
                 <v-icon class="jsf-icon">fas fa-users</v-icon>
               </v-flex>
@@ -104,7 +104,7 @@ export default {
 
 .jsf-content {
   display: block;
-  align-self: center;
+  align-items: center;
   h1 {
     font-size: calc(20px + 5 * ((100vw - 320px) / 880)) !important;
   }
@@ -115,6 +115,6 @@ export default {
   }
 }
 .card-round {
-  border-radius: 20px !important;
+  border-radius: 15px !important;
 }
 </style>
