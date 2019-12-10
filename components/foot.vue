@@ -1,5 +1,5 @@
 <template>
-  <v-footer fixed padless class="flex-center pa-2">
+  <v-footer  padless class="flex-center pa-2">
     <div class="container">
       <v-layout row wrap class="pb-4">
         <v-flex xs12 md6 class="flex-center py-3">
@@ -82,7 +82,7 @@ a {
   color: $bg !important;
   font-family: 'ds';
   text-decoration: none;
-  font-size: calc(14px + 4 * ((100vw - 360px) / 880)) !important;
+  font-size: calc(14px + 3 * ((100vw - 360px) / 880)) !important;
 
   &:hover {
     color: purple !important;
