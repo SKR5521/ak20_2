@@ -115,6 +115,6 @@ export default {
   }
 }
 .card-round {
-  border-radius: 15px !important;
+  border-radius: 12px !important;
 }
 </style>

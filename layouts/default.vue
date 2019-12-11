@@ -5,7 +5,7 @@
         <nuxt />
       </v-container>
     </v-content>
-    <foot/>
+    <foot />
   </v-app>
 </template>
 
@@ -14,11 +14,11 @@ import foot from '@/components/foot'
 
 export default {
   components: {
-    foot,
+    foot
   },
   data() {
     return {
-      // 
+      //
     }
   }
 }
@@ -29,6 +29,9 @@ export default {
   margin: 0;
   padding: 0;
   background-color: $bg !important;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .tb {
