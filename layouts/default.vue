@@ -1,5 +1,6 @@
 <template>
   <v-app class="bdy">
+     <Navbar/>
     <v-content>
       <v-container>
         <nuxt />
@@ -11,10 +12,12 @@
 
 <script>
 import foot from '@/components/foot'
+import Navbar from '@/components/Navbar'
 
 export default {
   components: {
     foot,
+    Navbar
   },
   data() {
     return {
