@@ -6,7 +6,7 @@
         <nuxt />
       </v-container>
     </v-content>
-    <foot/>
+    <foot />
   </v-app>
 </template>
 
@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      // 
+      //
     }
   }
 }
@@ -32,6 +32,9 @@ export default {
   margin: 0;
   padding: 0;
   background-color: $bg !important;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .tb {
